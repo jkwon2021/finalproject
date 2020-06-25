@@ -1,0 +1,77 @@
+body{
+    background-color: #fffff0;
+    font-family: trebuchet, helvetica, sans-serif;
+}
+
+
+.korean-name{
+    color: gray;
+
+}
+
+.lit-category{
+    margin-bottom: -10px;
+}
+
+.category{
+    color: #00bfff;
+
+}
+
+
+.image{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 10px 10px;
+
+}
+
+.box{
+    display: flex;
+    width: auto;
+
+    justify-content: space-evenly;
+}
+
+.list{
+    color: grey;
+}
+
+.pinfo {
+    color: grey;
+}
+
+.box1{
+    margin-left: -700px;
+}
+
+.box2 {
+    background-color: honeydew;
+    border-radius: 20px;
+    width: auto;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    margin-left: -700px;
+
+}
+.imgweb{
+    width: 50px
+}
+.website{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.website li{
+    margin-top: -5px;
+    width: auto;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.website li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
